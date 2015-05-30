@@ -19,7 +19,7 @@ require('package-main')(__dirname)
 
 ## API
 
-### `requireMainModule([cwd])`
+### `packageMain([cwd])`
 
 #### `cwd`
 
