@@ -1,7 +1,7 @@
 {
   "name": "package-main",
   "main": "./src",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "require your main module",
   "license": "MIT",
   "repository": "bendrucker/package-main",
