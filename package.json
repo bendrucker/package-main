@@ -1,6 +1,6 @@
 {
   "name": "package-main",
-  "main": "./src",
+  "main": "./release",
   "version": "1.0.0",
   "description": "require your main module",
   "license": "MIT",
