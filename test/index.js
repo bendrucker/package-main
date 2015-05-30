@@ -1,9 +1,9 @@
 'use strict'
 
 import test from 'tape'
-import requireMain from '../'
+import pkgMain from '../'
 
 test((t) => {
-  t.equal(requireMain(__dirname), requireMain)
+  t.equal(pkgMain(__dirname), pkgMain)
   t.end()
 })

@@ -1,4 +1,4 @@
-# require-main-module [![Build Status](https://travis-ci.org/bendrucker/require-main-module.svg?branch=master)](https://travis-ci.org/bendrucker/require-main-module)
+# package-main [![Build Status](https://travis-ci.org/bendrucker/package-main.svg?branch=master)](https://travis-ci.org/bendrucker/package-main)
 
 > require your "main" module
 
@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save require-main-module
+$ npm install --save package-main
 ```
 
 
 ## Usage
 
 ```js
-require('require-main-module')(__dirname);
+require('package-main')(__dirname)
 //=> the main parent
 ```
 

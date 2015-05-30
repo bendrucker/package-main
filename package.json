@@ -1,10 +1,10 @@
 {
-  "name": "require-main-module",
+  "name": "package-main",
   "main": "./src",
   "version": "0.0.0",
   "description": "require your main module",
   "license": "MIT",
-  "repository": "bendrucker/require-main-module",
+  "repository": "bendrucker/package-main",
   "author": {
     "name": "Ben Drucker",
     "email": "bvdrucker@gmail.com",
