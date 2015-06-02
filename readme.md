@@ -19,9 +19,9 @@ require('package-main')(__dirname)
 
 ## API
 
-### `packageMain([cwd])`
+#### `packageMain([cwd])` -> `Any`
 
-#### `cwd`
+##### cwd
 
 *Required*  
 Type: `string`
