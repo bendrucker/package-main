@@ -1,6 +1,6 @@
 {
   "name": "package-main",
-  "main": "./src",
+  "main": "index.js",
   "version": "1.0.0",
   "description": "require your main module",
   "license": "MIT",
@@ -14,35 +14,23 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "standard && babel-tape-runner test/*.js"
+    "test": "standard && tape test.js"
   },
   "keywords": [
     "require",
     "main",
-    "module"
+    "module",
+    "package"
   ],
   "dependencies": {
     "find-main": "~2.0.1"
   },
   "devDependencies": {
-    "babel": "^5.0.0",
-    "babel-tape-runner": "*",
     "tape": "^4.0.0",
-    "standard": "bendrucker/standard#babel",
-    "publicist": "~4.0.0",
-    "publicist-es5": "~1.0.0"
+    "standard": "^4.0.0"
   },
-  "publicist": {
-    "builds": {
-      "es5": {
-        "dest": "./release"
-      }
-    }
-  },
-  "standard": {
-    "ignore": [
-      "release/",
-      "lib/"
-    ]
-  }
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
 }
