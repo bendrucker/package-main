@@ -1,4 +1,4 @@
-# package-main [![Build Status](https://travis-ci.org/bendrucker/package-main.svg?branch=master)](https://travis-ci.org/bendrucker/package-main)
+# package-main [![Build Status](https://travis-ci.org/bendrucker/package-main.svg?branch=master)](https://travis-ci.org/bendrucker/package-main) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/package-main.svg)](https://greenkeeper.io/)
 
 > require your "main" module
 
